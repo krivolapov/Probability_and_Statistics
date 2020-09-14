@@ -29,3 +29,6 @@ def union3(A, B, C):
     size_CB = len(C&B)
     size_ABC = len(A&B&C)
     return (A|B|C, (size_A + size_B + size_C -size_AB - size_AC - size_CB + size_ABC))
+
+def inclusion_exclusion3(A, B, C):
+    return (len(A&B&C), len(A|B|C))
