@@ -1,1 +1,1 @@
-# Probability and Statistics for Data Science (UCSanDiego)
+## Probability and Statistics for Data Science (UCSanDiego)
